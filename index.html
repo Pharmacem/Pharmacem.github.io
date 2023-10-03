@@ -1,19 +1,66 @@
-<!DOCTYPE html>
+<!--DOCTYPE html sirve para indicar el tipo de documento que es-->
+<!Doctype html>
+<!--Lang sirve para poner el idioma que vamos a utilizar-->
 <html lang="es">
+    <!-- Head sirve para los metadatos es decir son datos que el usuario no ve-->
     <head>
+        <!--Con meta y charset podemos poner el idioma de caracteres-->
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Pharmacen</title>
+        <!--title sirve para canviar el titulo de la pestaña en el navegador-->
+        <title>Pharmacem</title>
+        <!--link especifica la relación entre el documento actual y un recurso externo, 
+        rel sirve para describir la relación entre el recurso enlazado con el documento o ruta de destino
+        y href sirve para se crean enlaces internos o externos en un documento HTML-->
+        <link rel="shortcut icon" href="Logo_Bueno.png">
     </head>
+    <!--Body es toda la parte visible que tiene nuestra pagina web aquí pondremos todo lo que queremos que el usuario pueda ver-->
     <body>
+        <!--header sirve para el encabezado de nuestra pàgina-->
         <header>
-            <h1>Pharmacen</h1>
+            <!--H1 sirve para poner un titulo, hay hasta h6-->
+            <h1>PHARMACEM</h1>
         </header>
+        <nav>
+            <a href=""></a>
+            <a href=""></a>
+            <a href=""></a>
+        </nav>
+        <!--main sirve para el contenido principal de la pàgina es el cuerpo-->
+        <main>
+            <!--article sirve para representa una composición auto-contenida en un documento,
+            una página, una aplicación o en un sitio, que se quiere que sea distribuíble y/o reutilizable de manera independiente-->
+            <article>
+                <h3></h3>
+                <!-- P sirve para hacer un parrafo, U sirve para poner una palabra o palabras subralladas, 
+                B pone la palabra o palabras en negrita, I sirve para poner la palabra o palabras en cursiva, 
+                em da enfasis a la palabra o palabras poniendolas en cursiva y strong sirve paramarcar con especial énfasis 
+                las partes más importantes de un texto -->
+                <p></p>
+                <!--section representa una sección genérica de un documento. Sirve para determinar qué contenido corresponde a qué parte de un esquema-->
+                <section>
+                    <h4>Quien somos?</h4>
+                    <p>Nosotros somos un grupo de cuatro informáticos que hemos hecho un proyecto para poder crear 
+                    y gestionar una farmacia</p>
+                </section>
+            </article>
+            <!--aside nos va ayudar a poder identificar semánticamente nuestras barras de "widgets"-->
+            <aside>
 
-        <main></main>
-
+            </aside>
+            <!--From sirve para crear un formularios, label es el texto que queremos para nuestro formulario, 
+            input se usa para crear controles interactivos para formularios basados en la web con el fin de recibir datos del usuario, 
+            type sirve para escoger el tipo de formulario que queremos -->
+            <form>
+                <label for="n1">Nombre</label>
+                <input type="text" id="n1" name="nombre"><br>
+                <label for="e1">Email:</label>
+                <input type="text" id="e1" name="email" value="ejemplo@dominio.com"><br>
+                <input type="Submit">
+            </form>
+        </main>
+        <!--footer es el pie de la pagina suele contener información de contacto legal y enlaces-->
         <footer>
-            <p>Pharmacen 2023 &copy;</p>
+            
         </footer>
     </body>
 </html>
