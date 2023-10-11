@@ -3,7 +3,12 @@
 }
 
 body{
-    display:flex
-    
-    
+    display: flex;
+    flex-direction: column;
 }
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
