@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulari Pharmacem</title>
+    </head>
+    
+    <body>
+        <h1 style="text-align:center">Formulari</h1>
+        <form action="./login.php" method="POST" enctype="multipart/form-data">
+            <label></label>
+            <input>
+
+            <label>Enviar</label>
+            <input type="submit">
+            
+        </form>
+    </body>
+</html>
