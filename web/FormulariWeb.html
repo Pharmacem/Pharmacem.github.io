@@ -6,28 +6,36 @@
     </head>
     
     <body>
-        <h1 style="text-align:center">Formulari</h1>
-        <form action="./login.php" method="POST" enctype="multipart/form-data">
-            <label for="nom">Nom:</label>
-            <input id="nom" type="text" name="nom" placeholder="Introdueix el teu nom" autofocus required>
-            <br>
-            <label for="password">Contrasenya:</label>
-            <input id="password" type="password" name="password" placeholder="Introdueix la teva contrasenya" required>
-            <br>
-            <label for="mail">Email:</label>
-            <input id="mail" type="email" name="mail" placeholder="Introdueix el teu correu electrònic" required>
-            <br>
-            <label for="teléfon">Teléfon:</label>
-            <input id="teléfon" type="tel" name="teléfon" placeholder="666798653" required>
-            <br>
-            <label for="data">Data de neixament:</label>
-            <input id="data" type="date" name="data" required>
-            <br>
-            <label></label>
-            <input>
-            <br>
-            <input type="submit">
-            <br>
-        </form>
+        <header>
+            <img id="LogoPharmacemSinFondo.png" src="../img/LogoPharmacemSinFondo.png" alt="Logo empresa Pharmacem">
+        </header>
+        <main>
+            <h1 style="text-align:center"><b>Formulari</b></h1>
+            <form action="./login.php" method="POST" enctype="multipart/form-data">
+                <label for="nom">Nom:</label>
+                <input id="nom" type="text" name="nom" placeholder="Introdueix el teu nom" autofocus required>
+                <br>
+                <label for="password">Contrasenya:</label>
+                <input id="password" type="password" name="password" placeholder="Introdueix la teva contrasenya" required>
+                <br>
+                <label for="mail">Email:</label>
+                <input id="mail" type="email" name="mail" placeholder="Introdueix el teu correu electrònic" required>
+                <br>
+                <label for="teléfon">Teléfon:</label>
+                <input id="teléfon" type="tel" name="teléfon" placeholder="666798653" required>
+                <br>
+                <label for="data">Data de neixament:</label>
+                <input id="data" type="date" name="data" required>
+                <br>
+                <label for="altura">Altura:</label>
+                <input id="altura" type="number" name="altura" step="0.01" min="1" max="2.5">
+                <br>
+                <label for="pes">Pes corporal:</label>
+                <input id="pes" type="number" name="pes" step="0.1">
+                <br>
+                <input type="submit">
+                <br>
+            </form>
+        </main>
     </body>
 </html>
