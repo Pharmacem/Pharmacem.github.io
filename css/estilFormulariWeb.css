@@ -5,6 +5,7 @@
 body{
     display: flex;
     flex-direction: column;
+    background-color: azure;
 }
 
 main {
@@ -19,17 +20,16 @@ main {
 }
 
 #LogoPharmacemSinFondoPieDePagina{
-    height: 80px;
-    width: 150px;
+    height: 75px;
+    width: 110px;
 }
 
 header{
     display: flex;
     min-height: 110px;
-    background-color: darkgrey;
+    background-color: azure;
     justify-content: space-between;
     align-items: center;
-    padding: 5px;
     
 }
 
@@ -40,7 +40,7 @@ a{
     padding: 5px;
 }
 a:hover{
-    color: whitesmoke;
+    color: rgb(2, 124, 0);
 }
 
 @media (max-width:700px){
@@ -56,8 +56,8 @@ a:hover{
 
 
 div a{
-    color:blue
+    color: blue;
 }
 div a:hover{
-    color: black;
+    color: rgb(2, 124, 0);
 }
