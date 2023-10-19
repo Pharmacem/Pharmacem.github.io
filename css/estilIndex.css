@@ -52,5 +52,11 @@ a:hover{
     display: flex;
     align-items: center;
 }
+div a{
+    color:blue
+}
+div a:hover{
+    color: black;
+}
 
 

@@ -17,3 +17,9 @@ main {
     width: 170px;
 
 }
+div a{
+    color:blue
+}
+div a:hover{
+    color: black;
+}
