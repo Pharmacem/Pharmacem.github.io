@@ -17,3 +17,47 @@ main {
     width: 170px;
 
 }
+
+#LogoPharmacemSinFondoPieDePagina{
+    height: 80px;
+    width: 150px;
+}
+
+header{
+    display: flex;
+    min-height: 110px;
+    background-color: darkgrey;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    padding: 5px;
+}
+a:hover{
+    color: whitesmoke;
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+
+div a{
+    color:blue
+}
+div a:hover{
+    color: black;
+}

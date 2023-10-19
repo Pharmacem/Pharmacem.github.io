@@ -9,35 +9,79 @@
     <body>
         <header>
             <a href="../index.html"><img id="LogoPharmacemSinFondo" src="../img/LogoPharmacemSinFondo.png" alt="Logo empresa Pharmacem"></a>
+            <h1 style="text-align:center"><b>Formulari</b></h1>
+            <nav>
+                <a href="web/Salut.html">Salut</a>
+                <a href="web/Dermocosmetica.html">Dermocosmetica</a>          
+            </nav>
         </header>
-        <h1 style="text-align:center"><b>Formulari</b></h1>
+        <main>
+            <section>
+                <br>
+                <h3 style="font-size:large">Aquest formulari serveix per registrar-se a la nostre pàgina web</h3>
+                <br>
+                <article>
+                <form action="./login.php" method="POST" enctype="multipart/form-data">
+                    <label for="nom">Nom:</label>
+                    <input id="nom" type="text" name="nom" placeholder="Introdueix el teu nom" autofocus required>
+                    <br>
+                    <br>
+                    <label for="password">Contrasenya:</label>
+                    <input id="password" type="password" name="password" placeholder="Introdueix la teva contrasenya" required>
+                    <br>
+                    <br>
+                    <label for="mail">Email:</label>
+                    <input id="mail" type="email" name="mail" placeholder="Introdueix el teu correu electrònic" required>
+                    <br>
+                    <br>
+                    <label for="teléfon">Teléfon:</label>
+                    <input id="teléfon" type="tel" name="teléfon" placeholder="666798653" required>
+                    <br>
+                    <br>
+                    <label for="data">Data de neixament:</label>
+                    <input id="data" type="date" name="data" required>
+                    <br>
+                    <br>
+                    <label for="altura">Altura:</label>
+                    <input id="altura" type="number" name="altura" step="0.01" min="1" max="2.5" value="1.70">
+                    <br>
+                    <br>
+                    <label for="pes">Pes corporal:</label>
+                    <input id="pes" type="number" name="pes" step="0.1">
+                    <br>
+                    <br>
+                    <input type="submit">
+                    <br>
+                    <br>
+                    </form>
+                </article>
+            </section>
+        </main>
         <br>
-        <p style="font-size:large">Aquest formulari serveix per registrar-se a la nostre pàgina web</p>
-        <br>
-        <form action="./login.php" method="POST" enctype="multipart/form-data">
-            <label for="nom">Nom:</label>
-            <input id="nom" type="text" name="nom" placeholder="Introdueix el teu nom" autofocus required>
-            <br>
-            <label for="password">Contrasenya:</label>
-            <input id="password" type="password" name="password" placeholder="Introdueix la teva contrasenya" required>
-            <br>
-            <label for="mail">Email:</label>
-            <input id="mail" type="email" name="mail" placeholder="Introdueix el teu correu electrònic" required>
-            <br>
-            <label for="teléfon">Teléfon:</label>
-            <input id="teléfon" type="tel" name="teléfon" placeholder="666798653" required>
-            <br>
-            <label for="data">Data de neixament:</label>
-            <input id="data" type="date" name="data" required>
-            <br>
-            <label for="altura">Altura:</label>
-            <input id="altura" type="number" name="altura" step="0.01" min="1" max="2.5" value="1.70">
-            <br>
-            <label for="pes">Pes corporal:</label>
-            <input id="pes" type="number" name="pes" step="0.1">
-            <br>
-            <input type="submit">
-            <br>
-        </form>
+        <hr>
+        <footer>
+            <img id="LogoPharmacemSinFondoPieDePagina" src="/img/LogoPharmacemSinFondo.png" alt="És una imagen del logo pharmacem" width="100">
+                <div>
+                    <h3>Contacte:</h3><br> 
+                    <p>Sant miquel Isaac Albeniz, Granollers</p>
+                    <p>+34 938 794 018</p><br>
+                    <a href="mailto:infopharmacem@gmail.com">infopharmacem@gmail.com</a><br>          
+                    <br>
+                    <h3>Enllaços:</h3><br>
+                    <a href="https://www.instagram.com/pharmacem_oficial/" target="_blank">Instagram</a><br>           
+                    <br>
+                    <h3>Serveis:</h3><br>
+                    <p>Col·locació Arracades</p>
+                    <p>Fòrmules Magistrals</p>
+                    <p>Atenció Farmacèutica</p>   
+                    <p>Detecció de Paràmetres Analítics</p> 
+                    <p>Productes Infantils</p> 
+                    <p>Dermofarmàcia</p>   
+                    <br>
+                    <h4>Horari:</h4><br>
+                    <p>De dilluns a disabte</p>
+                    <p>8:30h a 20:20h</p>
+                </div>
+    </footer>
     </body>
 </html>
