@@ -5,7 +5,7 @@
 body{
     display: flex;
     flex-direction: column;
-    background-color: rgb(179, 248, 248);
+    background-color: azure;
 }
 
 main {
@@ -30,6 +30,7 @@ header{
     background-color: azure;
     justify-content: space-between;
     align-items: center;
+    color:black
 }
 
 a{
@@ -53,10 +54,10 @@ a:hover{
     align-items: center;
 }
 
-
 div a{
     color: blue;
 }
+
 div a:hover{
     color: rgb(2, 124, 0);
 }
