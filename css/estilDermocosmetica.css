@@ -12,6 +12,8 @@ main {
     display: flex;
     flex-direction: row;
     background-color:azure;
+
+    height: 60%s;
 }
 
 #LogoPharmacemSinFondo{
@@ -27,11 +29,12 @@ main {
 
 header{
     display: flex;
-    min-height: 110px;
+    height: 20%;
     background-color: azure;
     justify-content: space-between;
     align-items: center;
     color:black
+    
 }
 
 a{
@@ -90,7 +93,3 @@ footer{
     
 }
 
-#LogoPharmacemSinFondoPieDePagina
-{
-    
-}
