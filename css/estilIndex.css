@@ -58,15 +58,36 @@ div a{
 div a:hover{
     color: black;
 }s
-.columna {
-    width:25%;
-    float:left;
-  }
-  
-  @media (max-width: 500px) {
-    
-    .columna {
-      width:auto;
-      float:none;
-    }    
+footer{
+    height: 20%;
+    display: flex;
+    flex-direction: row;
 }
+
+.footerBox{
+    flex: 1;
+    /*border: 1px solid black;*/
+
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;
+    align-items: center;*/
+}
+
+.footerImg
+{
+    flex: 1;
+    /*border: 1px solid black;*/
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#LogoPharmacemSinFondoPieDePagina
+{
+    
+}
+
