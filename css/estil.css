@@ -1,0 +1,29 @@
+*{
+    margin: 0em;
+    color: azure;
+    font: 
+}
+header{
+    height: 20%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    color: black;
+    background-color: rgb(2, 124, 0);
+}
+a:hover{
+    color: white;
+}
+#LogoPharmacemSinFondo{
+    height: 100px;
+    width: 170;
+}
+main{
+    height: 60%;
+    text-align: center;
+    
+}
+#VideoPastillas{
+    height: 100px;
+    width: 50px;
+}
