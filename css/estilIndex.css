@@ -29,7 +29,7 @@ main {
 header{
     display: flex;
     height: 20%;
-    background-color: darkgrey;
+    background-color: azure;
     justify-content: space-between;
     align-items: center;
     padding: 5px;
@@ -49,10 +49,7 @@ a:hover{
         flex-direction: column;
     }
 }
-.logo{
-    display: flex;
-    align-items: center;
-}
+
 div a{
     color:blue
 }

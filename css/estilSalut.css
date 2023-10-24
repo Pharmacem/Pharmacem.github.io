@@ -33,7 +33,9 @@ header{
     align-items: center;
     
 }
-
+nav a{
+    color:black
+}
 a{
     text-decoration: none;
     color: black;
@@ -67,6 +69,7 @@ footer{
     height: 20%;
     display: flex;
     flex-direction: row;
+    
 }
 
 .footerBox{
