@@ -1,0 +1,96 @@
+*{
+    margin: 0em;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: azure;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    height: 60%;
+}
+
+#LogoPharmacemSinFondo{
+    height: 100px;
+    width: 170px;
+
+}
+
+#LogoPharmacemSinFondoPieDePagina{
+    height: 75px;
+    width: 110px;
+}
+
+header{
+    display: flex;
+    height: 20%;
+    background-color: azure;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+nav a{
+    color:black
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    padding: 5px;
+}
+a:hover{
+    color: rgb(2, 124, 0);
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+
+div a{
+    color: blue;
+}
+div a:hover{
+    color: rgb(2, 124, 0);
+}
+
+footer{
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.footerBox{
+    flex: 1;
+    /*border: 1px solid black;*/
+
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;
+    align-items: center;*/
+}
+
+.footerImg
+{
+    flex: 1;
+    /*border: 1px solid black;*/
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
