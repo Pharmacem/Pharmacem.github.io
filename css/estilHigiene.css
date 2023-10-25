@@ -5,6 +5,7 @@
 body{
     display: flex;
     flex-direction: column;
+    background-color: azure;
 }
 
 main {
@@ -18,30 +19,31 @@ main {
     width: 170px;
 
 }
-#VideoPastillas{
-    height: 100px;
-    width: 50px;
-}
+
 #LogoPharmacemSinFondoPieDePagina{
-    height: 80px;
-    width: 150px;
+    height: 75px;
+    width: 110px;
 }
+
 header{
     display: flex;
     height: 20%;
     background-color: azure;
     justify-content: space-between;
     align-items: center;
-    padding: 5px;
     
+}
+nav a{
+    color:black
 }
 a{
     text-decoration: none;
     color: black;
     font-weight: 700;
+    padding: 5px;
 }
 a:hover{
-    color: whitesmoke;
+    color: rgb(2, 124, 0);
 }
 
 @media (max-width:700px){
@@ -50,16 +52,24 @@ a:hover{
     }
 }
 
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+
 div a{
-    color:blue
+    color: blue;
 }
 div a:hover{
-    color: black;
+    color: rgb(2, 124, 0);
 }
+
 footer{
     height: 20%;
     display: flex;
     flex-direction: row;
+    
 }
 
 .footerBox{
@@ -83,3 +93,4 @@ footer{
     align-items: center;
     
 }
+
